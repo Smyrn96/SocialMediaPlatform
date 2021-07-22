@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Log in!</title>
+  <meta name="description" content="Sign in form">
+  <meta name="author" content="Emmanouil Smyrnakis">
+
+  <link rel="stylesheet" type="text/css" href="css/signIn.css">
+
+</head>
+
+<body onload="showRadioPhotoButton()">
+    <div id="main2">
+	<script src="js/face.js"></script>
+	<header>
+		<h1>Log In!</h1>
+	</header>
+	<nav>
+		<h2>Please fill the sign in form</h2>
+	</nav>
+	<main>
+	<form id="reg_form">
+		Username:<br>
+      		<input type="text" id="username" name="username" pattern="[A-Za-z]{8,}" title="Eight letter username" required>
+      		<br>
+      		<p>Username autocomplete</p>
+      		<input type="radio" id="radioPhoto" onclick="showCamera()">
+      		<br><br>
+      		 Password:<br>
+      		<input id="original_password" type="password" name="User's Password" pattern="(?=.*\d)(?=.[A-Za-z])(?=.*[#,%,$]).{8,10}" title="Latin characters 8 to 10,one number and one of the following characters:(#,%,$)" required>
+      		<br><br>
+      		<input type="submit" value="Submit">
+      	</form>
+      	<video id='video' width='540' height='380' autoplay></video>
+    	<input type='button' id="snap" value ='Take Photo'>
+    	<canvas id='canvas' width='540' height='380'></canvas>
+    	<input type='button' id="upload" value ="Upload image" style="display:none">
+        <input type='button' id="search" value ='Search Image'>
+    	<script>
+        faceRec.init();
+    	</script>
+    </main>
+    <footer>
+        <p>©Copyright 2018 by Emmanouil Smyrnakis. All rights reversed.</p>
+    </footer> 
+    </div>
+</body>
+</html>

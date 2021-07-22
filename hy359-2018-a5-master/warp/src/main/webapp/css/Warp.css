@@ -1,0 +1,245 @@
+header{
+	font-size: 30px;
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: oblique;
+	color: black;
+	text-align: center;
+}
+
+h3{
+    font-size: 40px;
+}
+
+img.resize{
+    max-width:50%;
+     max-height:50%;
+}
+
+a.postid{
+   color:blue;
+   font-size:12px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+}
+
+a.link{
+    color:red;
+    font-size:20px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+}
+
+a.link:hover{
+    color:blue;
+    font-size:20px;
+   font-weight: bold;
+   text-align: center;
+   text-decoration: none;
+}
+
+.user_info_button{
+	position: absolute;
+	top:8px;
+	left:5px;
+        font-size:18px;
+}
+
+.users_list_button{
+	position: absolute;
+	top:8px;
+	left:130px;
+        font-size:18px;
+}
+
+
+.my_profile_button{
+    position: absolute;
+    top:8px;
+    right:120px;
+    font-size:18px;
+}
+
+.home_button{
+    position: absolute;
+    top:8px;
+    left:5px;
+    font-size:18px;
+}
+
+.logout_button{
+	position: absolute;
+	top:8px;
+	right:5px;
+        font-size:18px;
+}
+
+a.profile{
+   float: left;
+   font-size:20px;
+   font-weight: bold;
+   text-decoration: none;
+   
+}
+
+.box{
+  width: 1000px;
+  height: 500px;
+  padding: 10px;
+  border: 5px solid grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small_box{
+  outline-style: solid;
+  width: 500px;
+  text-align: justify;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.comment_box{
+   outline-style: solid;
+  width: 300px;
+  text-align: justify;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.date{
+    font-size: 11px;
+    font-style: italic;
+    color:red;
+}
+
+h4{
+    font-size: 20px;
+}
+
+nav{
+	font-size: 20px;
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: oblique;
+	color: red;
+	text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#main{
+    width:960px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.half1 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.half2 {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body,html{
+	height:100%;
+	width: 100%;
+    background-image: url(neutral.png);
+    background-repeat:repeat;
+    background-blend-mode: lighten;
+    background-size: 130px;
+}
+
+.myMap{
+	position: absolute;
+	right:50px;
+	top:20px;
+	height: 200px;
+    width:20%;
+    visibility: hidden;
+}
+#buttonMap{
+	visibility: hidden;
+	position: absolute;
+	right:220px;
+	top:360px;
+}
+
+#currentLocationButton{
+	visibility: visible;
+	position: absolute;
+	right:220px;
+	top:330px;
+}
+
+#video{
+	position: absolute;
+	top:900px;
+	left:150px;
+}
+
+#snap{
+	position: absolute;
+	top:1300px;
+	left:360px;
+}
+
+#canvas{
+	position: absolute;
+	top:900px;
+	right:150px;
+}
+
+#upload{
+	position: absolute;
+	top:1300px;
+	right:360px;
+}
+
+h2{
+    font-size:30px;
+    text-align:center;
+}
+
+h5{
+    font-size:20px;
+    text-align:center;
+    font-style: italic;
+    color:red;
+}
+
+p{
+	font-size: 11px;
+	font-style: italic;
+	color:red;
+}
+
+.sumbit_button{
+    text-align: center;
+    height:50px;
+    width:150px;
+    
+}
+
+footer{
+	text-align: center;
+	padding-top: 100px;
+    color: gray;
+}

@@ -1,0 +1,78 @@
+header{
+	font-size: 30px;
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: oblique;
+	color: black;
+	text-align: center;
+}
+
+
+
+nav{
+	font-size: 20px;
+	font-family: "Times New Roman", Georgia, serif;
+	font-style: oblique;
+	color: red;
+	text-align: center;
+}
+
+body,html{
+    background-image: url(neutral.png);
+    background-repeat:repeat;
+    background-blend-mode: lighten;
+    background-size: 130px;
+}
+
+#main2{
+	text-align: center;
+	font-size: 25px;
+}
+
+input[type=text]{
+	width: 15%;
+	height: 25%;
+    margin-right: 40%;
+    margin-left: 40%;
+    font-size: 25px;
+}
+
+input[type=password]{
+	width: 15%;
+	height: 25%;
+    margin-right: 40%;
+    margin-left: 40%;
+    font-size: 25px;
+}
+
+p{
+	font-size: 13px;
+	font-style: italic;
+}
+
+#video{
+	position: absolute;
+	top:80px;
+	left:40px;
+}
+
+#snap{
+	position: absolute;
+	top:500px;
+	left:270px;
+}
+#search{
+	position: absolute;
+	top:500px;
+	right:270px;
+}
+#canvas{
+	position: absolute;
+	top:80px;
+	right:40px;
+}
+
+footer{
+	text-align: center;
+	padding-top: 100px;
+    color: gray;
+}
